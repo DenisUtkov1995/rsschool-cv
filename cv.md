@@ -1,9 +1,9 @@
-#CV
+# CV
 ---
 ## Denis Utkov
 ![фото для резюме](cv1.png)
 
-##Contact details:
+## Contact details:
 
 Phone | Email | Discord
 --- | --- |  ---
@@ -14,8 +14,8 @@ ___My strengths - purposefulness, responsibility and stress resistance.
 I am a confident PC user.___
 
 ---
-####I have been self-taught for the last 3 months.
-####I learn languages ​​like:
+#### I have been self-taught for the last 3 months.
+#### I learn languages ​​like:
 * Java Script
 * HTML
 * CSS
@@ -23,8 +23,8 @@ I am a confident PC user.___
  [link to my repository with code examples](https://github.com/DenisUtkov1995/Project)
 
 ---
-_My education: higher technical_
-_My level of English: A1_
+_My education: higher technical._
+_My level of English: A1._
 
 
 
