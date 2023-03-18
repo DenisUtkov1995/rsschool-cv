@@ -1,7 +1,31 @@
-h1 {
+h1,
+h2 {
     text-align: center;
 }
 
 .top_information {
     text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+p {
+    margin-top: 1vw;
+   font-size: 1vw;
+   text-decoration: underline;
+}
+
+li {
+    font-size: 1vw;
+    font-style: italic;
+    
+}
+
+.text_information {
+    margin-top: 2vw;
+    border: 1px solid;
+    width: fit-content;
+    height: fit-content;
 }
