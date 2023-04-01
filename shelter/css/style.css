@@ -14,8 +14,18 @@ body {
     color: #4C4C4C;
 }
 
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
 .wrapper {
     max-width: 1185px;
+    margin: 0 auto;
+}
+
+.wrapper_full {
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -44,6 +54,15 @@ body {
     color: #F1CDB3;
 }
 
+.logo_subtitle {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
 .header_list {
     display: flex;
     flex-wrap: wrap;
@@ -56,16 +75,23 @@ body {
     margin-right: 0;
 }
 
+#shel_01 {
+    border-bottom: #F1CDB3 3px solid;
+}
+#shel_02 {
+    color: #FFFF;
+}
+
 .header_link {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-    color: #FAFAFA;
+    color: #CDCDCD;
     text-decoration: none;
 }
 .header_link:hover, .header_link:focus, .header_link:active {
-    opacity: 0.75;
+    color: #FFFF;
 }
 
 /* Header styles end */
@@ -73,13 +99,76 @@ body {
 /* Intro styles start */
 
 .intro {
-    height: 100vh;
+    min-height: 100vh;
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 343px;
+    margin-bottom: 80px;
 }
 
-.intro_img {
-    margin-bottom: 0px;
+.intro_title {
+    max-width: 310px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+}
+
+.intro_subtitle {
+    max-width: 460px;
+    font-family: 'Arial';
+    color: #CDCDCD;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom: 42px;
+}
+
+.search_form_submit {
+    padding: 15px 45px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 17px;
+    color: #292929;
+    background: #F1CDB3;
+    border-radius: 100px;
+    border: 0;
+}
+.search_form_submit:hover, .search_form_submit:focus, .search_form_submit:active {
+    background-color: #eda875;
 }
 
 /* Intro styles end */
+
+/* Shelter styles start */
+
+.shelters {
+    margin-bottom: 194px;
+}
+
+.shelters_shelter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 120px;
+    align-items: center;
+}
+
+.shelter_title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    margin-bottom: 25px;
+    width: 370px;
+}
+
+.shelter_desc {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom: 25px;
+    width: 430px;
+}
+/* Shelter styles end */
