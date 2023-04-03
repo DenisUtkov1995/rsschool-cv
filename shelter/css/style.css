@@ -29,6 +29,12 @@ body {
     margin: 0 auto;
 }
 
+.section-title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+}
+
 /* Header styles start */
 
 .header {
@@ -102,8 +108,15 @@ body {
     min-height: 100vh;
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
-    padding-top: 343px;
+    padding-top: 70px;
     margin-bottom: 80px;
+}
+
+.intro_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 42px;
+    align-items: center;
 }
 
 .intro_title {
@@ -139,12 +152,16 @@ body {
     background-color: #eda875;
 }
 
+.intro_pic {
+    padding-top: 140px;
+}
+
 /* Intro styles end */
 
 /* Shelter styles start */
 
 .shelters {
-    margin-bottom: 194px;
+    margin-bottom: 77px;
 }
 
 .shelters_shelter {
@@ -172,3 +189,69 @@ body {
     width: 430px;
 }
 /* Shelter styles end */
+
+/* pets styles start */
+
+.pets {
+    background-color: #F6F6F6;
+    margin-bottom: 100px;
+    
+}
+
+.top_title {
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+
+.pets_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 90px;
+}
+
+.pets_card-pic{
+    margin-bottom: 30px;
+}
+
+.pets_card {
+    text-align: center;
+    background-color:  #FAFAFA;
+}
+
+.pets_card-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.search_form_button {
+    padding: 15px 45px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 17px;
+    color: #292929;
+    background: #FAFAFA;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+}
+
+.search_list {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+
+.search_list_button {
+    padding: 15px 45px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    border: 0;
+    
+}
+/* pets styles end */
